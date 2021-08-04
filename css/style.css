@@ -1,0 +1,22 @@
+.text {
+    color:#2196F3;
+}
+.link {
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+}
+.list{
+    color:black;
+    list-style: none;
+    font-size: 14px;
+}
+.list a{
+    text-decoration: none;
+}
+.list:first-child{
+    color:#2196F3;
+}
+.title_h1{
+    font-size: 40px;
+}
