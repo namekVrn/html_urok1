@@ -35,7 +35,12 @@
     color:#757575;
     letter-spacing: 3%;
 }
-.then-title{
+.then-title .team-title{
     font-size: 36px;
-    
+}
+.then-ul, .team-ul, .title-ul{
+    list-style: none;
+}
+.then-ul a, .team-ul a, .title-ul a{
+    text-decoration: none;
 }
