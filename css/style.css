@@ -42,3 +42,13 @@
 .then-ul a, .team-ul a, .title-ul a{
     text-decoration: none;
 }
+/* Наша команда */
+.team-li-name {
+    font-size: 16px;
+    font-weight: medium;
+    letter-spacing: 3%;
+}
+.team-li-text{
+    color:#757575;
+    
+}
