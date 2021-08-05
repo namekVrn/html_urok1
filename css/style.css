@@ -50,5 +50,37 @@
 }
 .team-li-text{
     color:#757575;
-    
+
+}
+
+/* Доставка еды */
+.logo-text{
+    font-size: 30px;
+}
+.logo > a {
+    text-decoration: none;
+    color: black;
+}
+.logo-text > span {
+    color: green;
+    font-size: 30px;
+}
+.nav-ul{
+    list-style: none;
+    font-size: 20px;
+}
+.nav-ul a {
+    text-decoration: none;
+}
+.header-contacts--text{
+    font-size: 33px;
+}
+.header-contacts--text > span {
+    color: green;
+    font-size: 45px;
+}
+.header-contacts a {
+    text-decoration: none;
+    font-size: 35px;
+    display: block;
 }
