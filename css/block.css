@@ -66,3 +66,119 @@ a {
 a:hover {
   background: rgb(144, 206, 214);
 }
+p {
+  margin: 0;
+  padding: 0;
+}
+.look {
+  background: rgb(44, 43, 43);
+  border: 12px dotted yellow;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.look > .box {
+  background: rgb(54, 182, 15);
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  padding: 5px;
+}
+.look > .box1 {
+  background: rgb(182, 26, 15);
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  padding: 5px;
+}
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+.page-header {
+  /*  Making header.page-header a Flex-container and aligning elements  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #607d8b;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.logo {
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #ff5722;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menu .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu .link:hover,
+.menu .link:focus,
+.logo:hover,
+.logo:focus {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sidebar {
+  flex-basis: 250px;
+  margin-right: 24px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.sidebar,
+.content {
+  height: 350px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
